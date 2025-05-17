@@ -52,12 +52,14 @@ from lap_violin import drivers_lap_violin, teams_lap_violin
 
 # Plot the lap times for the top 5 drivers from the 2024 British Grand Prix race
 drivers_lap_violin("Britain", year=2024, session="R", drivers="top5")
+```
 ![Example drivers plot](drivers_output.png)
 
+```python
 # Plot the lap times for the 'big 4' teams from the 2023 Azerbaijan Grand Prix Sprint Race
 teams_lap_violin("Azerbaijan", year=2023, session="S", teams="big4")
-![Example teams plot](teams_output.png)
 ```
+![Example teams plot](teams_output.png)
 
 ## Acknowledgements:
 This project realies heavily on the excellent [FastF1](https://theoehrly.github.io/Fast-F1/) library for accurate timing data.
